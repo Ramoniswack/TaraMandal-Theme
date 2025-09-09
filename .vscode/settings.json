@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "[TaraMandal Light Cream]": {
+            "terminal.background": "#F0E6D4",
+            "terminal.foreground": "#2D2D5F",
+            "terminalCursor.background": "#D63384",
+            "terminalCursor.foreground": "#FFF8F0",
+            "terminal.ansiBlack": "#2C2C54",
+            "terminal.ansiRed": "#DC2626",
+            "terminal.ansiGreen": "#16A34A",
+            "terminal.ansiYellow": "#CA8A04",
+            "terminal.ansiBlue": "#2563EB",
+            "terminal.ansiMagenta": "#9333EA",
+            "terminal.ansiCyan": "#0891B2",
+            "terminal.ansiWhite": "#E5E5E5",
+            "terminal.ansiBrightBlack": "#64748B",
+            "terminal.ansiBrightRed": "#EF4444",
+            "terminal.ansiBrightGreen": "#22C55E",
+            "terminal.ansiBrightYellow": "#EAB308",
+            "terminal.ansiBrightBlue": "#3B82F6",
+            "terminal.ansiBrightMagenta": "#A855F7",
+            "terminal.ansiBrightCyan": "#06B6D4",
+            "terminal.ansiBrightWhite": "#F8FAFC"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.inheritEnv": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.backgroundOpacity": 1,
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    "terminal.integrated.persistentSessionReviveProcess": "never"
+}

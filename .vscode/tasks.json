@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Terminal Settings",
+            "type": "shell",
+            "command": "echo \"Setting up terminal environment...\"",
+            "presentation": {
+                "reveal": "never",
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
