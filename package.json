@@ -31,11 +31,6 @@
         "path": "./themes/taramandal-light-color-theme.json"
       },
       {
-        "label": "TaraMandal High Contrast",
-        "uiTheme": "hc-black",
-        "path": "./themes/taramandal-high-contrast-color-theme.json"
-      },
-      {
         "label": "TaraMandal Aurora",
         "uiTheme": "vs-dark",
         "path": "./themes/taramandal-aurora-color-theme.json"
