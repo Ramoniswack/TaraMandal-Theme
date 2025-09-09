@@ -1,17 +1,50 @@
-# TaraMandal Theme
+# TaraMandal Theme Collection
 
-Hey there! Welcome to my cosmic-inspired dark theme for VS Code with stellar accents.
+Welcome to TaraMandal - a collection of cosmic-inspired VS Code themes with stellar accents.
+
+## Theme Variants
+
+### 🌑 TaraMandal Classic
+
+A deep space-inspired dark theme with stellar accents, designed for comfort during long coding sessions.
+
+### ☀️ TaraMandal Light Cream
+
+A warm, cream-colored light theme that's easy on the eyes with rich syntax highlighting.
+
+### 🌈 TaraMandal Aurora
+
+A vibrant green aurora theme with a starry night sky background. Inspired by the Northern Lights, this theme features emerald greens, teals, and subtle blues against a deep midnight background to create the perfect aurora borealis experience for your coding environment.
+
+### ⚡ TaraMandal High Contrast
+
+An accessibility-focused high contrast theme for maximum readability.
 
 ## Features
 
-- **Deep Space Background**: I've crafted a rich dark blue background that's super easy on my eyes during late-night coding sessions
-- **Vibrant Syntax Highlighting**: I've personally selected colors for optimal code readability
-- **Enhanced Token Differentiation**: I made sure there's clear distinction between different code elements
-- **Beautiful UI Elements**: I've designed cohesive styling across all VS Code interface components
+- **Thoughtful Color Design**: Colors chosen for optimal readability and reduced eye strain
+- **Semantic Coloring**: Meaningful color assignments help you parse code faster
+- **Beautiful UI Elements**: Cohesive styling across all VS Code interface components
+- **Terminal Color Integration**: Proper terminal coloring that matches each theme
 
 ## Screenshots
 
-[Add screenshots of your theme here]
+### TaraMandal Aurora
+
+![TaraMandal Aurora Theme Screenshot]
+
+_The TaraMandal Aurora theme features vibrant emerald greens and teals against a starry night sky background, creating an immersive Northern Lights coding experience._
+
+#### Aurora Theme Color Palette
+
+| Element    | Color Sample                                                 | Hex Code | Element    | Color Sample                                                 | Hex Code |
+| ---------- | ------------------------------------------------------------ | -------- | ---------- | ------------------------------------------------------------ | -------- |
+| Background | ![#030C10](https://via.placeholder.com/15/030C10/030C10.png) | #030C10  | Foreground | ![#E2F3EA](https://via.placeholder.com/15/E2F3EA/E2F3EA.png) | #E2F3EA  |
+| Functions  | ![#32F0B3](https://via.placeholder.com/15/32F0B3/32F0B3.png) | #32F0B3  | Keywords   | ![#9EBCFF](https://via.placeholder.com/15/9EBCFF/9EBCFF.png) | #9EBCFF  |
+| Variables  | ![#67F0AE](https://via.placeholder.com/15/67F0AE/67F0AE.png) | #67F0AE  | Strings    | ![#85FFB8](https://via.placeholder.com/15/85FFB8/85FFB8.png) | #85FFB8  |
+| Numbers    | ![#FFDA9E](https://via.placeholder.com/15/FFDA9E/FFDA9E.png) | #FFDA9E  | Comments   | ![#7B8C84](https://via.placeholder.com/15/7B8C84/7B8C84.png) | #7B8C84  |
+
+[Add more screenshots of your themes here]
 
 ## Installation
 
@@ -37,7 +70,7 @@ If you prefer the manual way (like I sometimes do):
 
 ## Customization
 
-Not happy with some of my color choices? Feel free to make it your own! Here's how I'd customize it in the `settings.json` file:
+Not happy with some color choices? Feel free to make it your own! Here's how to customize any theme in the `settings.json` file:
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -48,6 +81,14 @@ Not happy with some of my color choices? Feel free to make it your own! Here's h
         "strings": "#4AE54A",
         "types": "#9933FF",
         "variables": "#FFFFFF"
+    },
+    "[TaraMandal Aurora]": {
+        "comments": "#7B8C84",
+        "functions": "#32F0B3",
+        "keywords": "#9EBCFF",
+        "strings": "#85FFB8",
+        "types": "#57E0C2",
+        "variables": "#67F0AE"
     }
 }
 ```
@@ -62,7 +103,7 @@ I personally love coding with these fonts:
 
 ## Contributing
 
-Got ideas to make this theme even better? I'd love to hear them! Check out my [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to help.
+Got ideas to make this theme even better? I'd love to hear them! Check out my [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on how to help.
 
 ## License
 
@@ -70,4 +111,9 @@ I'm sharing this under the [MIT License](LICENSE) - feel free to use it however 
 
 ## More Information
 
-I've put together detailed documentation about customizing and extending this theme. Check out my [THEME_DOCUMENTATION.md](THEME_DOCUMENTATION.md) if you want to dig deeper!
+I've put together detailed documentation about customizing and extending these themes:
+
+- General theme documentation: [THEME_DOCUMENTATION.md](docs/THEME_DOCUMENTATION.md)
+- Aurora theme special features: [AURORA_THEME_DOCUMENTATION.md](docs/AURORA_THEME_DOCUMENTATION.md)
+- Terminal color fixes: [TERMINAL_FIX.md](docs/TERMINAL_FIX.md)
+- Changelog: [CHANGELOG.md](docs/CHANGELOG.md)
