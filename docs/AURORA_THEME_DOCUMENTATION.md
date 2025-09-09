@@ -1,6 +1,6 @@
 # TaraMandal Aurora Theme
 
-## 🌌 Northern Lights in Your Editor
+## Northern Lights in Your Editor
 
 TaraMandal Aurora brings the stunning aurora borealis directly to your VS Code environment with vibrant green tones against a starry night sky.
 
@@ -13,7 +13,7 @@ TaraMandal Aurora brings the stunning aurora borealis directly to your VS Code e
 - **Soft Green (#85FFB8)**: Natural green for strings and content
 - **Warm Glow (#FFDA9E)**: Golden accents for numbers and constants
 
-## ✨ Features
+## Features
 
 - **Emerald Aurora Focus**: Vibrant green highlights create an aurora effect around your active code
 - **Starry Night Background**: Deep midnight background lets the aurora colors truly shine
@@ -21,7 +21,7 @@ TaraMandal Aurora brings the stunning aurora borealis directly to your VS Code e
 - **Semantic Colors**: Each syntax element has a meaningful color from the aurora palette
 - **Comfortable Contrast**: Balanced for all-day coding with reduced eye strain
 
-## 🎨 Colors
+## Colors
 
 | Element    | Color        | Hex Code | Element    | Color       | Hex Code |
 | ---------- | ------------ | -------- | ---------- | ----------- | -------- |
@@ -30,7 +30,7 @@ TaraMandal Aurora brings the stunning aurora borealis directly to your VS Code e
 | Variables  | Teal Flow    | #67F0AE  | Strings    | Soft Green  | #85FFB8  |
 | Numbers    | Warm Glow    | #FFDA9E  | Comments   | Shadow      | #7B8C84  |
 
-## 🛠️ Recommended Settings
+## Recommended Settings
 
 For the best Aurora experience, try these VS Code settings:
 
@@ -42,7 +42,7 @@ For the best Aurora experience, try these VS Code settings:
 }
 ```
 
-## 🌟 Recommended Fonts
+## Recommended Fonts
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Fira Code](https://github.com/tonsky/FiraCode)

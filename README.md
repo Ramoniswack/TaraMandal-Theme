@@ -4,19 +4,19 @@ Welcome to TaraMandal - a collection of cosmic-inspired VS Code themes with stel
 
 ## Theme Variants
 
-### 🌑 TaraMandal Classic
+### TaraMandal Classic
 
 A deep space-inspired dark theme with stellar accents, designed for comfort during long coding sessions.
 
-### ☀️ TaraMandal Light Cream
+### TaraMandal Light Cream
 
 A warm, cream-colored light theme that's easy on the eyes with rich syntax highlighting.
 
-### 🌈 TaraMandal Aurora
+### TaraMandal Aurora
 
 A vibrant green aurora theme with a starry night sky background. Inspired by the Northern Lights, this theme features emerald greens, teals, and subtle blues against a deep midnight background to create the perfect aurora borealis experience for your coding environment.
 
-### ⚡ TaraMandal High Contrast
+### TaraMandal High Contrast
 
 An accessibility-focused high contrast theme for maximum readability.
 
