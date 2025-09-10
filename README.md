@@ -81,5 +81,4 @@ Marketplace item name: `ramoniswack.taramandal`
 - Filenames should be lowercase and use underscores (no spaces)
 
 When you upload your screenshots to `images/marketplace/`, tell me and I'll update this file to include the Markdown image links and repackage the `.vsix` including those assets.
-
 ```

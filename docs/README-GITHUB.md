@@ -82,5 +82,4 @@ I keep more detailed docs in the `docs/` folder: theme breakdowns, terminal fixe
 ```json
 
 ```
-
 ````
