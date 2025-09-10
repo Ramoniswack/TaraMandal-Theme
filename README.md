@@ -1,119 +1,85 @@
-# TaraMandal Theme Collection
+```markdown
+# TaraMandal
 
-Welcome to TaraMandal - a collection of cosmic-inspired VS Code themes with stellar accents.
+## Short description (one line)
 
-## Theme Variants
+A cosmic-inspired VS Code theme collection with deep-space backgrounds and stellar accents for comfortable, focused coding.
 
-### TaraMandal Classic
+## Long description
 
-A deep space-inspired dark theme with stellar accents, designed for comfort during long coding sessions.
+TaraMandal is a carefully crafted Visual Studio Code theme family inspired by nebulas, auroras and night skies. It includes dark and light variants plus an aurora palette for a calm but vivid coding experience.
 
-### TaraMandal Light Cream
+Key points:
 
-A warm, cream-colored light theme that's easy on the eyes with rich syntax highlighting.
-
-### TaraMandal Aurora
-
-A vibrant green aurora theme with a starry night sky background. Inspired by the Northern Lights, this theme features emerald greens, teals, and subtle blues against a deep midnight background to create the perfect aurora borealis experience for your coding environment.
-
-### TaraMandal High Contrast
-
-An accessibility-focused high contrast theme for maximum readability.
+- High-contrast readable syntax highlighting
+- Multiple theme variants (default, dark, light, aurora)
+- Terminal color integration for consistent experience
+- Lightweight — no runtime dependencies
 
 ## Features
 
-- **Thoughtful Color Design**: Colors chosen for optimal readability and reduced eye strain
-- **Semantic Coloring**: Meaningful color assignments help you parse code faster
-- **Beautiful UI Elements**: Cohesive styling across all VS Code interface components
-- **Terminal Color Integration**: Proper terminal coloring that matches each theme
+- Balanced color contrast for long sessions
+- Distinct token colors for readability
+- UI theming for panels, status bar and activity bar
+- Optional terminal background customizations
 
 ## Screenshots
 
-### TaraMandal Aurora
+I embed the screenshots from the `screenshots/` folder included in this repository. Here are the previews:
 
-![TaraMandal Aurora Theme Screenshot]
+![Default theme screenshot](screenshots/taramandal-color-theme.png)
 
-_The TaraMandal Aurora theme features vibrant emerald greens and teals against a starry night sky background, creating an immersive Northern Lights coding experience._
+![Dark theme screenshot](screenshots/taramandal-dark-color-theme.png)
 
-#### Aurora Theme Color Palette
+![Light cream theme screenshot](screenshots/taramandal-light-color-theme.png)
 
-| Element    | Color Sample                                                 | Hex Code | Element    | Color Sample                                                 | Hex Code |
-| ---------- | ------------------------------------------------------------ | -------- | ---------- | ------------------------------------------------------------ | -------- |
-| Background | ![#030C10](https://via.placeholder.com/15/030C10/030C10.png) | #030C10  | Foreground | ![#E2F3EA](https://via.placeholder.com/15/E2F3EA/E2F3EA.png) | #E2F3EA  |
-| Functions  | ![#32F0B3](https://via.placeholder.com/15/32F0B3/32F0B3.png) | #32F0B3  | Keywords   | ![#9EBCFF](https://via.placeholder.com/15/9EBCFF/9EBCFF.png) | #9EBCFF  |
-| Variables  | ![#67F0AE](https://via.placeholder.com/15/67F0AE/67F0AE.png) | #67F0AE  | Strings    | ![#85FFB8](https://via.placeholder.com/15/85FFB8/85FFB8.png) | #85FFB8  |
-| Numbers    | ![#FFDA9E](https://via.placeholder.com/15/FFDA9E/FFDA9E.png) | #FFDA9E  | Comments   | ![#7B8C84](https://via.placeholder.com/15/7B8C84/7B8C84.png) | #7B8C84  |
-
-[Add more screenshots of your themes here]
+![Aurora theme screenshot](screenshots/taramandal-aurora-color-theme.png)
 
 ## Installation
 
-### VS Code Marketplace
-
-Once I publish my theme, you can install it easily:
-
 1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X or Cmd+Shift+X)
-3. Search for "TaraMandal"
-4. Click Install
-5. Select "TaraMandal" from the theme dropdown (Ctrl+K Ctrl+T or Cmd+K Cmd+T)
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "TaraMandal" and click Install
 
-### Manual Installation
+Or manually install the `.vsix` from the releases page.
 
-If you prefer the manual way (like I sometimes do):
+## Usage
 
-1. Download the .vsix file from my [releases page](https://github.com/ram0niswack/taramandal/releases)
-2. In VS Code, go to Extensions view
-3. Click the "..." menu in the top-right corner
-4. Select "Install from VSIX..."
-5. Navigate to the downloaded file and install
+- Open Command Palette (Ctrl+Shift+P) → Color Theme → Select "TaraMandal" or any variant from the list.
+- For terminal background consistency, check the extension settings if enabled.
 
-## Customization
+## Settings
 
-Not happy with some color choices? Feel free to make it your own! Here's how to customize any theme in the `settings.json` file:
+This extension contributes one optional setting:
 
-```json
-"editor.tokenColorCustomizations": {
-    "[TaraMandal]": {
-        "comments": "#6B7394",
-        "functions": "#3399FF",
-        "keywords": "#FF3366",
-        "strings": "#4AE54A",
-        "types": "#9933FF",
-        "variables": "#FFFFFF"
-    },
-    "[TaraMandal Aurora]": {
-        "comments": "#7B8C84",
-        "functions": "#32F0B3",
-        "keywords": "#9EBCFF",
-        "strings": "#85FFB8",
-        "types": "#57E0C2",
-        "variables": "#67F0AE"
-    }
-}
-```
+- `taramandal.terminalBackground` — set a custom terminal background color for the light theme (default `#FAF5ED`).
 
-## Recommended Font
+## Release notes / Changelog
 
-I personally love coding with these fonts:
+See the project `CHANGELOG.md` for release notes and version history.
 
-- [Fira Code](https://github.com/tonsky/FiraCode) - my personal favorite
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - super clean and readable
-- [Cascadia Code](https://github.com/microsoft/cascadia-code) - great ligatures!
+## Support
 
-## Contributing
-
-Got ideas to make this theme even better? I'd love to hear them! Check out my [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on how to help.
+If you find issues or want to request color tweaks, open an issue on GitHub: https://github.com/Ramoniswack/TaraMandal-Theme/issues
 
 ## License
 
-I'm sharing this under the [MIT License](LICENSE) - feel free to use it however you want!
+MIT — see the LICENSE file.
 
-## More Information
+## Publisher information
 
-I've put together detailed documentation about customizing and extending these themes:
+Publisher: Ramoniswack
+Marketplace item name: `ramoniswack.taramandal`
 
-- General theme documentation: [THEME_DOCUMENTATION.md](docs/THEME_DOCUMENTATION.md)
-- Aurora theme special features: [AURORA_THEME_DOCUMENTATION.md](docs/AURORA_THEME_DOCUMENTATION.md)
-- Terminal color fixes: [TERMINAL_FIX.md](docs/TERMINAL_FIX.md)
-- Changelog: [CHANGELOG.md](docs/CHANGELOG.md)
+---
+
+### Asset guidance (image requirements)
+
+- Hero screenshot: 1280×720 PNG recommended
+- Additional screenshots: 1280×720 PNG
+- Icon: 128×128 PNG (already included as `logo/taramandal-logo.png`)
+- Filenames should be lowercase and use underscores (no spaces)
+
+When you upload your screenshots to `images/marketplace/`, tell me and I'll update this file to include the Markdown image links and repackage the `.vsix` including those assets.
+
+```
