@@ -1,84 +1,63 @@
-```markdown
-# TaraMandal
+# TaraMandal – VS Code Theme Collection
 
-## Short description (one line)
+A constellation-inspired Visual Studio Code theme family featuring dark, light, and aurora palettes for a comfortable and aesthetic coding experience.
 
-A cosmic-inspired VS Code theme collection with deep-space backgrounds and stellar accents for comfortable, focused coding.
+## Overview
 
-## Long description
+TaraMandal brings the calm beauty of the night sky into your editor. Inspired by constellations, auroras, and nebulae, this handcrafted theme collection is designed for comfort, clarity, and style.
 
-TaraMandal is a carefully crafted Visual Studio Code theme family inspired by nebulas, auroras and night skies. It includes dark and light variants plus an aurora palette for a calm but vivid coding experience.
-
-Key points:
-
-- High-contrast readable syntax highlighting
-- Multiple theme variants (default, dark, light, aurora)
-- Terminal color integration for consistent experience
-- Lightweight — no runtime dependencies
-
-## Features
-
-- Balanced color contrast for long sessions
-- Distinct token colors for readability
-- UI theming for panels, status bar and activity bar
-- Optional terminal background customizations
-
-## Screenshots
-
-I embed the screenshots from the `screenshots/` folder included in this repository. Here are the previews:
-
-![Default theme screenshot](screenshots/taramandal-color-theme.png)
-
-![Dark theme screenshot](screenshots/taramandal-dark-color-theme.png)
-
-![Light cream theme screenshot](screenshots/taramandal-light-color-theme.png)
-
-![Aurora theme screenshot](screenshots/taramandal-aurora-color-theme.png)
+### Key Features
+- Multiple theme variants: Default, Dark, Light (Cream), and Aurora
+- Balanced, eye-friendly contrast for long coding sessions
+- Full UI theming for panels, activity bar, status bar, and tabs
+- Semantic token colors for clear syntax distinction
+- Lightweight with no runtime dependencies
 
 ## Installation
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "TaraMandal" and click Install
-
-Or manually install the `.vsix` from the releases page.
+1. Open Visual Studio Code.  
+2. Go to Extensions (`Ctrl+Shift+X`).  
+3. Search for **TaraMandal** and click **Install**.  
+4. Alternatively, manually install the `.vsix` file from the [Releases](https://github.com/Ramoniswack/TaraMandal-Theme/releases) page.
 
 ## Usage
 
-- Open Command Palette (Ctrl+Shift+P) → Color Theme → Select "TaraMandal" or any variant from the list.
-- For terminal background consistency, check the extension settings if enabled.
+- Open the Command Palette (`Ctrl+Shift+P`) → **Color Theme** → select **TaraMandal** or any variant.  
+- Optional: Adjust the terminal background to match your theme variant.
 
 ## Settings
 
-This extension contributes one optional setting:
+This extension contributes the following optional setting:
 
-- `taramandal.terminalBackground` — set a custom terminal background color for the light theme (default `#FAF5ED`).
+| Setting | Description | Default |
+|---------|-------------|---------|
+| `taramandal.terminalBackground` | Custom terminal background color for the Light theme | `#FAF5ED` |
 
-## Release notes / Changelog
+## Changelog
 
-See the project `CHANGELOG.md` for release notes and version history.
+See [CHANGELOG.md](CHANGELOG.md) for release history and details.
 
 ## Support
 
-If you find issues or want to request color tweaks, open an issue on GitHub: https://github.com/Ramoniswack/TaraMandal-Theme/issues
+For bug reports or suggestions, please open an issue:  
+[https://github.com/Ramoniswack/TaraMandal-Theme/issues](https://github.com/Ramoniswack/TaraMandal-Theme/issues)
+
+## Contributing
+
+If you want to help improve colors or add new variants, open an issue or a pull request.  
+See [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT — see the LICENSE file.
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE.txt) file for details.
 
-## Publisher information
+## Publisher Information
 
-Publisher: Ramoniswack
-Marketplace item name: `ramoniswack.taramandal`
+- **Publisher:** `Ramoniswack`  
+- **Marketplace Item:** [ramoniswack.taramandal](https://marketplace.visualstudio.com/items?itemName=ramoniswack.taramandal)  
+- **Icon:** `logo/taramandal-logo.png` (128×128 PNG)
 
----
+## Why TaraMandal
 
-### Asset guidance (image requirements)
-
-- Hero screenshot: 1280×720 PNG recommended
-- Additional screenshots: 1280×720 PNG
-- Icon: 128×128 PNG (already included as `logo/taramandal-logo.png`)
-- Filenames should be lowercase and use underscores (no spaces)
-
-When you upload your screenshots to `images/marketplace/`, tell me and I'll update this file to include the Markdown image links and repackage the `.vsix` including those assets.
-```
+TaraMandal is a carefully crafted theme collection inspired by the night sky, designed to reduce eye strain and provide a refined coding experience.
