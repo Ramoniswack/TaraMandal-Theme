@@ -1,9 +1,9 @@
 {
   "name": "taramandal",
   "displayName": "TaraMandal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "ramoniswack",
-  "icon": "logo/taramandal-logo.png",
+  "icon": "logo/taramandal-bg.png",
   "description": "A cosmic-inspired theme collection for VS Code with stellar accents",
   "engines": {
     "vscode": "^1.70.0"
